@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    color: #666;
+}
+
+
+.index {
+    background-color: #f6f6f6;
+}
+
+.shortcut {
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+}
+.logo{
+    position: relative;
+    z-index: 2;
+    left: 0;
+    top: -31px;
+    width: 190px;
+    height: 170px;
+}
+.w {
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*color: #999;*/
+    /*min-width: 990px;*/
+    width:65%;
+    margin: auto;
+}
+#header {
+    z-index: 11;
+    height: 140px;
+    margin: auto;
+}
+#search {
+
+}
+.search-m {
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}

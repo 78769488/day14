@@ -146,7 +146,6 @@ body {
 }
 
 .fs{
-    position: relative;
     margin-bottom: 10px;
 }
 .fs_inner {
@@ -154,6 +153,9 @@ body {
     height: 480px;
     margin-bottom: 10px;
     background-color: #f6f6f6;
+}
+.fs, .fs_inner {
+    position: relative;
 }
 .grid_c1 {
     width: 1190px;
@@ -315,9 +317,9 @@ img {
 .service_item {
     float: left;
     width: 45px;
-    height: 65px;
+    height: 69px;
     text-align: center;
-    line-height: 65px;
+    line-height: 69px;
     border-left:1px solid #e6e6e6;
     border-bottom:1px solid #e6e6e6;
 }
@@ -325,4 +327,104 @@ img {
     margin-left: -1px;
     width: 192px;
     height: 210px;
+}
+.sk {
+    height: 305px;
+}
+.fbt, .sk {
+    margin-bottom: 30px;
+}
+
+.sk_inner {
+    overflow: hidden;
+}
+.grid_c1 {
+    width: 1190px;
+    margin:0 auto;
+}
+.box_hd {
+    position: relative;
+    padding:0 20px 0 30px;
+    height: 55px;
+    line-height: 55px;
+    color: #ffffff;
+}
+.box_hd_col1 {
+    float: left;
+}
+.sk .box_hd {
+    background:red;
+}
+.box_tit {
+    /*font-family:fzzhengheis-el-gbregular;*/
+    font-size: 26px;
+    font-weight:400;
+    line-height: 40px;
+    height: 40px;
+    padding-top: 9px;
+    float: left;
+}
+.box_subtit {
+    position: relative;
+    float: right;
+    margin-top: 19px;
+    padding-right: 20px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.sk .box_subtit {
+    float: left;
+    margin-left: 12px;
+}
+.box_hd_col2 {
+    float: right;
+}
+.sk_cd {
+    float: left;
+}
+.sk_cd_tip {
+    float: left;
+    line-height: 45px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.sk_cd_main {
+    float: left;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+.sk .cd_item {
+    float: left;
+    width: 35px;
+    height: 37px;
+    background-color: #440106;
+    color: #f90013;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 37px;
+    margin-top: 10px;
+}
+.sk .cd_split {
+    float: left;
+    margin:22px 4px 0;
+    width: 4px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+}
+.sk .cd_split_dot {
+    display: block;
+    width: 4px;
+    height: 4px;
+}
+.sk .cd_split_top {
+    margin-bottom: 4px;
+}
+.sk .cd_split_bottom {
+    top: 30px;
 }
